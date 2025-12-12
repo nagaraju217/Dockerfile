@@ -1,0 +1,4 @@
+FROM almalinux
+ENV COURSE = "DEVOPS"\
+    TRAINER = "RAJ"\
+    DURATION = "10HRS"
