@@ -4,6 +4,6 @@ WORKDIR /app
 RUN dnf install nginx -y
 RUN useradd raju
 USER raju
-RUN PWD
+RUN pwd
 
 CMD [ "sleep", "1000" ]
